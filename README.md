@@ -47,6 +47,8 @@
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/aR7CKNFECx0/mqdefault.jpg)](https://youtu.be/aR7CKNFECx0)
 
+[Código fonte](./src/aula02/)
+
 ## 02b - Criando Classes e Objetos em Java
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/wNaoX6VOj54/mqdefault.jpg)](https://youtu.be/wNaoX6VOj54)
