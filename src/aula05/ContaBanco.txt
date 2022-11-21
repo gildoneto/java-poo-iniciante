@@ -71,4 +71,8 @@ Classe ContaBanco
     (...)
   FimMetodo
 
+  publico Metodo pagarMensal()
+    (...)
+  FimMetodo
+
 FimClasse
