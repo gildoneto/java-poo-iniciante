@@ -1,6 +1,10 @@
 Classe ContaBanco
   // Atributos
   publico numConta: Inteiro
+  protegido tipo: Caractere
+  privado dono: Caractere
+  privado saldo: Real
+  privado status: Logico
 
   // Método constrututor
   publico Metodo Construtor()
@@ -8,16 +12,62 @@ Classe ContaBanco
   FimMetodo
 
   // Métodos acessores
-  publico Metodo getNumConta()
-    retorna this.numConta
+
+  publico Metodo setNumConta(n: Inteiro)
+    numConta = n
   FimMetodo
 
-  publico Metodo setNumConta(conta: Inteiro)
-    this.numConta = conta
+  publico Metodo getNumConta()
+    retorne this.numConta
+  FimMetodo
+
+  publico Metodo setTipo(t: Caractere)
+    (...)
+  FimMetodo
+
+  publico Metodo getTipo()
+    (...)
+  FimMetodo
+
+  publico Metodo setDono(d: Caractere)
+    (...)
+  FimMetodo
+
+  publico Metodo getDono()
+    (...)
+  FimMetodo
+
+  publico Metodo setSaldo(s: Caractere)
+    (...)
+  FimMetodo
+
+  publico Metodo getSaldo()
+    (...)
+  FimMetodo
+
+  publico Metodo setStatus(s: Real)
+    (...)
+  FimMetodo
+
+  publico Metodo getStatus()
+    (...)
   FimMetodo
 
   // Métodos
-  publico Metodo abrirConta()
+
+  publico Metodo abrirConta(t: Caractere)
+    (...)
+  FimMetodo
+
+  publico Metodo fecharConta()
+    (...)
+  FimMetodo
+
+  publico Metodo depositar(v: Real)
+    (...)
+  FimMetodo
+
+  publico Metodo sacar(v: Real)
     (...)
   FimMetodo
 
