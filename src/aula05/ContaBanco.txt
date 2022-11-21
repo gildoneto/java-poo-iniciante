@@ -1,0 +1,24 @@
+Classe ContaBanco
+  // Atributos
+  publico numConta: Inteiro
+
+  // Método constrututor
+  publico Metodo Construtor()
+    (...)
+  FimMetodo
+
+  // Métodos acessores
+  publico Metodo getNumConta()
+    retorna this.numConta
+  FimMetodo
+
+  publico Metodo setNumConta(conta: Inteiro)
+    this.numConta = conta
+  FimMetodo
+
+  // Métodos
+  publico Metodo abrirConta()
+    (...)
+  FimMetodo
+
+FimClasse
