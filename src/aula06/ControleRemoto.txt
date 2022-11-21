@@ -1,0 +1,8 @@
+classe ControleRemoto
+
+// Atributos
+
+// Métodos especiais
+
+
+FimClasse
