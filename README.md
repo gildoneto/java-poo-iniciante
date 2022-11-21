@@ -87,6 +87,12 @@ Construa a classe ContaBanco em algoritmo no arquivo [ContaBanco.txt](./src/aula
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/1wYRGFXpVlg/mqdefault.jpg)](https://youtu.be/1wYRGFXpVlg)
 
+### Exercício de Algorítmo
+
+Construa a interface Controlador no arquivo [Controlador.txt](./src/aula06/Controlador.txt) e a classe ControleRemoto no arquivo [ControleRemoto.txt](./src/aula06/ControleRemoto.txt) de acordo com a UML abaixo:
+
+![Controle Remoto](./img/06a.png)
+
 ## 06b - Encapsulamento
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/x4JfzV0Wb5w/mqdefault.jpg)](https://youtu.be/x4JfzV0Wb5w)

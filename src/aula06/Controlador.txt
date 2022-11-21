@@ -1,0 +1,4 @@
+interface Controlador
+// Métodos Abstratos
+
+FimInterface
