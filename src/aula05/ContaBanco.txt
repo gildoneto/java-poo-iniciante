@@ -87,10 +87,28 @@ Classe ContaBanco
       se (saldo > v) entao
         setSaldo(getSaldo - v)
       senao
-        screva("Saldo insuficiente")
+        Escreva("Saldo insuficiente")
       FimSe
     senao
       Escreva("Impossível sacar")
+    FimSe
+  FimMetodo
+
+  publico Metodo pagarMensal()
+    var v: Real
+    se (tipo = "CC")
+      entao v = 12
+    senao se (tipo = "CP")
+      entao v = 20
+    FimSe
+    se (status = verdadeiro)
+      entao se (saldo > v)
+        entao setSaldo(getSaldo - v)
+      senao
+        Escreva("Saldo insuficiente")
+      FimSe
+    senao
+      Escreva("Impossível pagar")
     FimSe
   FimMetodo
 
