@@ -73,6 +73,12 @@
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/ull_DVFFOq0/mqdefault.jpg)](https://youtu.be/ull_DVFFOq0)
 
+### Exercício de Algorítmo
+
+Construa a classe ContaBanco em algoritmo no arquivo [ContaBanco.txt](./src/aula05/ContaBanco.txt) de acordo com a figura abaixo:
+
+![Classe Conta Banco](./img/05a%20-%20ContaBanco.png)
+
 ## 05b - Exemplo Prático em Java
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/hOC461osYgk/mqdefault.jpg)](https://youtu.be/hOC461osYgk)
