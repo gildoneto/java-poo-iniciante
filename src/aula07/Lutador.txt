@@ -1,0 +1,15 @@
+classe Lutador
+  // Atributos
+  privado nome: Caractere
+
+  // Métodos Especiais
+  publico metodo construtor()
+  (...)
+  FimMetodo
+
+  // Métodos
+  publico metodo ganharLuta()
+  (...)
+  FimMetodo
+  
+FimClasse

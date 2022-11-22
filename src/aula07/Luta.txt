@@ -1,0 +1,15 @@
+classe Luta
+  // Atributos
+  
+
+  // Métodos Especiais
+  publico metodo construtor()
+  (...)
+  FimMetodo
+
+  // Métodos
+  publico metodo marcarLuta()
+  (...)
+  FimMetodo
+  
+FimClasse

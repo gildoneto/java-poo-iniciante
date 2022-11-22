@@ -101,6 +101,77 @@ Construa a interface Controlador no arquivo [Controlador.txt](./src/aula06/Contr
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/GLHbxDU9iBA/mqdefault.jpg)](https://youtu.be/GLHbxDU9iBA)
 
+![Ultra Emoji Combat](./img/07a-uec.png)
+
+### Classe Lutador
+
+No arquivo [Lutador.txt](./src/aula07/Lutador.txt) escreva a classe em algoritmo de acordo com a UML abaixo:
+
+```mermaid
+classDiagram
+    class Lutador
+    Lutador : - nome
+    Lutador : - nacionalidade
+    Lutador : - idade
+    Lutador : - altura
+    Lutador : - peso
+    Lutador : - categoria
+    Lutador : - vitorias
+    Lutador : - derrotas
+    Lutador : - empates
+    Lutador : + apresentar()
+    Lutador : + status()
+    Lutador : + ganharLuta()
+    Lutador : + perderLuta()
+    Lutador : + empatarLuta()
+```
+
+### Lutadores
+
+No arquivo [Principal.txt](./src/aula07/Principal.txt) escreva a o programa que irá usar a classe Lutador em forma de algoritmo de acordo com os lutadores abaixo:
+
+|NOME|NACIONALIDADE|IDADE|ALTURA|PESO|CATEGORIA|VITORIAS|DERROTAS|EMPATES|
+| :-: | :-: | :-: | :-: | --- | :-: | :-: | :-: | :-: |
+| Pretty Boy :sunglasses:| França :fr:| 31 | 1.75 m | 68.9 Kg | Leve | 11 | 2 | 1 |
+| Putscript :angry:| Brasil :brazil:| 29 | 1.68 m | 57.8 Kg | Leve | 14 | 2 | 3 |
+| Snapshadow :grimacing:| EUA :us:| 35 | 1.65 m | 80.9 Kg | Médio | 12 | 2 | 1 |
+| Dead Code :skull:| Austrália :australia:| 28 | 1.93 m | 81.6 Kg | Médio | 13 | 0 | 2 |
+| Ufocobol :alien: | Brasil :brazil:| 37 | 1.70 m | 119.3 Kg | Pesado | 5 | 4 | 3 |
+| Nerdaard :nerd_face:| EUA :us:| 30 | 1.81 m | 105.7 Kg | Pesado | 12 | 2 | 4 |
+
+### Classe Luta
+
+No arquivo [Luta.txt](./src/aula07/Luta.txt) escreva a classe em algoritmo de acordo com a UML abaixo:
+
+```mermaid
+classDiagram
+    class Luta
+    Luta : - desafiado
+    Luta : - desafiante
+    Luta : - rounds
+    Luta : - aprovada
+    Luta : + marcarLuta()
+    Luta : + lutar()
+
+    class Lutador
+    Lutador : - nome
+    Lutador : - nacionalidade
+    Lutador : - idade
+    Lutador : - altura
+    Lutador : - peso
+    Lutador : - categoria
+    Lutador : - vitorias
+    Lutador : - derrotas
+    Lutador : - empates
+    Lutador : + apresentar()
+    Lutador : + status()
+    Lutador : + ganharLuta()
+    Lutador : + perderLuta()
+    Lutador : + empatarLuta()
+
+    Lutador --o Luta : Aggregation
+```
+
 ## 07b - Objetos Compostos em Java
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/BfrbCQ3XcrA/mqdefault.jpg)](https://youtu.be/BfrbCQ3XcrA)
