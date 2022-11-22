@@ -265,6 +265,27 @@ Acontece quando **substituímos** um método de uma superclasse na sua subclasse
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/hYek1xqWzgs/mqdefault.jpg)](https://youtu.be/hYek1xqWzgs)
 
+### Tipos de Polimorfismo
+
+![Tipos](./img/13b-sobrecarga-sobreposicao.png)
+
+#### Sobreposição
+
+Revisão de sobreposição:
+
+![Revisão sobrecarga](./img/13b-sobrecarga.png)
+
+![Override](./img/13b-override.png)
+
+#### Sobrecarga
+
+Assinaturas Diferentes
+Mesma Classe
+
+![Reagir](./img/13b-reagir.png)
+
+![Sobrecarga2](./img/13b-sobrecarga2.png)
+
 ## 13b - Polimorfismo Sobrecarga (Parte 2)
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/b7xGYh3NHZU/mqdefault.jpg)](https://youtu.be/b7xGYh3NHZU)
