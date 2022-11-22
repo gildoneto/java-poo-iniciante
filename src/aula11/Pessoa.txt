@@ -1,0 +1,36 @@
+classe abstrata Pessoa
+privado nome: Caractere
+privado idade: Inteiro
+privado sexo: Caractere
+publico metodo final fazerAniv ()
+(..)
+fimMetodo
+FimClasse
+
+classe Visitante estende Pessoa
+(...)
+FimClasse
+classe Aluno estende Pessoa
+privado matricula: Inteiro
+privado curso: Caractere
+publico metodo PagarMensalidade ()
+(...)
+fimMetodo
+FimClasse
+
+classe Bolsista estende Aluno
+privado bolsa: Inteiro
+publico metodo RenovarBolsa()
+(...)
+fimMetodo
+@Sobrepor
+publico metodo PagarMensalidade ()
+(...)
+fimMetodo
+FimClasse
+
+// Programa Principal
+// p1 = novo Pessoa() 
+v1 = novo Visitante()
+a1 = novo Aluno ()
+b1 = novo Bolsista

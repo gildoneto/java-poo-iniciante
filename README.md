@@ -217,9 +217,26 @@ Crie as classes em algoritmo nos arquivos da pasta [src/aula10](./src/aula10/) s
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/He887D2WGVw/mqdefault.jpg)](https://youtu.be/He887D2WGVw)
 
+### Navegação pela herança
+
+![Navegação pela herança](./img/11a-navegacao.png)
+
+### Tipos de Herança
+
+1. Herança de Implementação
+2. Herança para Diferença
+
+![Herança](./img/11a-heranca.png)
+
+### Abstrato e Final
+
+![Diferenças](./img/11a-diferencas.png)
+
 ## 11b - Herança (Parte 2)
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/5pwV2WdD-_Y/mqdefault.jpg)](https://youtu.be/5pwV2WdD-_Y)
+
+![Conceitos da aula passada](./img/11b.png)
 
 ## 12a - Conceito Polimorfismo (Parte 1)
 
