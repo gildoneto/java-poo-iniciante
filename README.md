@@ -199,6 +199,7 @@ classDiagram
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/xgqrkCcH6Ko/mqdefault.jpg)](https://youtu.be/xgqrkCcH6Ko)
 
+![UML Projeto Livro](./img/09b.png)
 ## 10a - Herança (Parte 1)
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/_PZldwo0vVo/mqdefault.jpg)](https://youtu.be/_PZldwo0vVo)
