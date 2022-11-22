@@ -242,6 +242,21 @@ Crie as classes em algoritmo nos arquivos da pasta [src/aula10](./src/aula10/) s
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/9-3-RMEMcq4/mqdefault.jpg)](https://youtu.be/9-3-RMEMcq4)
 
+### Conceito
+
+POLI = muitas
+MORFO = formas
+
+Permite que um mesmo nome represente vários comportamentos diferentes.
+
+#### Assinatura do Método
+
+### Tipos de Polimorfismo
+
+#### Sobreposição
+
+Acontece quando **substituímos** um método de uma superclasse na sua subclasse, usando a **mesma assinatura**.
+
 ## 12b - Polimorfismo em Java (Parte 1)
 
 [![Clique para assistir a aula](https://img.youtube.com/vi/NctjqlfKC0U/mqdefault.jpg)](https://youtu.be/NctjqlfKC0U)
