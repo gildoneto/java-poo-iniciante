@@ -1,4 +1,4 @@
-package UltraEmojiCombat;
+package ultraemojicombat;
 
 public class Lutador {
   // Atributos

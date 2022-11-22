@@ -139,9 +139,17 @@ No arquivo [Principal.txt](./src/aula07/Principal.txt) escreva a o programa que 
 | Ufocobol :alien: | Brasil :brazil:| 37 | 1.70 m | 119.3 Kg | Pesado | 5 | 4 | 3 |
 | Nerdaard :nerd_face:| EUA :us:| 30 | 1.81 m | 105.7 Kg | Pesado | 12 | 2 | 4 |
 
+## 07b - Objetos Compostos em Java
+
+[![Clique para assistir a aula](https://img.youtube.com/vi/BfrbCQ3XcrA/mqdefault.jpg)](https://youtu.be/BfrbCQ3XcrA)
+
+## 08a - Relacionamento de Agregação
+
+[![Clique para assistir a aula](https://img.youtube.com/vi/ERdvijGtrq0/mqdefault.jpg)](https://youtu.be/ERdvijGtrq0)
+
 ### Classe Luta
 
-No arquivo [Luta.txt](./src/aula07/Luta.txt) escreva a classe em algoritmo de acordo com a UML abaixo:
+No arquivo [Luta.txt](./src/aula08/Luta.txt) escreva a classe em algoritmo de acordo com a UML abaixo:
 
 ```mermaid
 classDiagram
@@ -169,16 +177,15 @@ classDiagram
     Lutador : + perderLuta()
     Lutador : + empatarLuta()
 
-    Lutador --o Luta : Aggregation
+    Lutador "*" --o "0..n" Luta : disputa
 ```
 
-## 07b - Objetos Compostos em Java
+### Regras da Luta
 
-[![Clique para assistir a aula](https://img.youtube.com/vi/BfrbCQ3XcrA/mqdefault.jpg)](https://youtu.be/BfrbCQ3XcrA)
-
-## 08a - Relacionamento de Agregação
-
-[![Clique para assistir a aula](https://img.youtube.com/vi/ERdvijGtrq0/mqdefault.jpg)](https://youtu.be/ERdvijGtrq0)
+- Só pode ser marcada entre lutadores da mesma categoria.
+- Desafiado e desafiante devem ser lutadores diferentes.
+- Só pode acontecer se estiver aprovada.
+- Só pode ter como resultado a vitória de um dos lutadores ou o empate.
 
 ## 08b - Agregação entre Objetos com Java
 

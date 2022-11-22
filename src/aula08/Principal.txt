@@ -1,0 +1,4 @@
+// Programa Principal
+L: vetor[0..5]
+
+L[0] = novo Lutador(...)
